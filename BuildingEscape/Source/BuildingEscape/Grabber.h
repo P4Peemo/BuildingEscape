@@ -42,6 +42,12 @@ private:
 	// Return hit for first physics body in reach
 	const FHitResult GetFirstPhysicsBodyInReach();
 
+	// Return current reach line start
+	FVector GetReachLineStart();
+
+	// Return current end of reach line
+	FVector GetReachLineEnd();
+
 	// How far ahead of the player can we reach
 	float Reach = 100.f;
 
